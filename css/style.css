@@ -1,0 +1,31 @@
+body {
+    min-height: 100vh;
+}
+
+.header,
+.hero_text,
+.footer {
+    background-color: #1F2937;
+}
+
+.header {
+    height: 300px;
+}
+.content {
+    height: 300px;
+}
+
+.hero_text {
+    height: 100px;
+}
+
+.carousel {
+    height: 100px;
+}
+
+.quote {
+    height: 100px;
+}
+.footer {
+    height: 300px;
+}
