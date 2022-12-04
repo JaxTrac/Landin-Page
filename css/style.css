@@ -48,6 +48,13 @@ ul,
 
 .quote {
     height: 200px;
+    padding: 0 200px 0 200px;
+    background-color: #E5E7EB ;
+}
+
+.quote_source {
+    display:flex;
+    justify-content: flex-end;
 }
 .footer {
     height: 300px;
