@@ -1,5 +1,6 @@
 body {
     min-height: 100vh;
+    margin: 0;
 }
 
 .header,
@@ -8,14 +9,23 @@ body {
     background-color: #1F2937;
 }
 
+ul,
+.header,
+.hero_section,
+.call_to_action {
+    display:flex;
+}
+
 .header {
     height: 300px;
+    justify-content: space-between;
+    padding: 10px;
 }
 .content {
     height: 500px;
 }
 
-.hero_text {
+.hero_section {
     height: 100px;
 }
 
@@ -32,4 +42,11 @@ body {
 
 img {
     max-height: 100px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
 }
