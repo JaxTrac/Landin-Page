@@ -4,18 +4,18 @@ body {
 }
 
 .header,
-.hero_text,
+.hero_section,
 .footer {
     background-color: #1F2937;
 }
 
 .header,
-.hero_text,
+.hero_section,
 .carousel,
 .quote,
 .call_to_action,
 .footer {
-    padding: 20px;
+    padding: 10px 100px 10px 100px;
 }
 
 ul,
