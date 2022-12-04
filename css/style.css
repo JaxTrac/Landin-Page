@@ -1,6 +1,7 @@
 body {
     min-height: 100vh;
     margin: 0px;
+    font-family: 'Roboto';
 }
 
 .header,
@@ -29,6 +30,12 @@ ul,
     height: 100px;
     justify-content: space-between;
 }
+
+.header_logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 .content {
     height: 1000px;
 }
@@ -73,5 +80,11 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    gap: 8px;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
 }
