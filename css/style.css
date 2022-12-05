@@ -76,9 +76,26 @@ ul,
     height: auto;
     text-align: center;
 }
-
+.carousel_title {
+    padding: 20px;
+    font-weight: 900;
+    font-size: large;
+}
 .carousel_items {
     justify-content: space-evenly;
+}
+.quadrants {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.placeholder {
+    height: 100px;
+    width: 100px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 20px;
 }
 
 .quote {
@@ -128,6 +145,8 @@ ul {
     padding: 0;
     gap: 20px;
 }
+
+
 
 a {
     text-decoration: none;
