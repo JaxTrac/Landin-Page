@@ -85,11 +85,15 @@ ul,
     height: auto;
     padding: 0 200px 0 200px;
     background-color: #E5E7EB ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .quote_source {
     display:flex;
     justify-content: flex-end;
+    font-weight: 900;
 }
 
 .call_to_action {
