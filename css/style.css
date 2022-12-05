@@ -97,7 +97,12 @@ ul,
     background-color: #3882F6;
 }
 .footer {
-    height: auto;
+    text-align: center;
+}
+
+.copyright {
+    color: #F9FAF8;
+    padding: 10px; 
 }
 
 img {
