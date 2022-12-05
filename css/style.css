@@ -95,7 +95,15 @@ ul,
 .call_to_action {
     margin: 100px;
     background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
+
+.cta_text {
+    color: #F9FAF8;
+}
+
 .footer {
     text-align: center;
 }
@@ -128,4 +136,5 @@ button {
     color: #E5E7EB;
     border-style:none;
     border-radius: 4px;
+    flex: 1;
 }
